@@ -6,7 +6,7 @@ A secure, importable implementation of English word segmentation using unigrams 
 
 ## Overview
 
-`word_segment` is a Python library for splitting concatenated text into individual English words. It's particularly useful for:
+`wordsegment` is a Python library for splitting concatenated text into individual English words. It's particularly useful for:
 
 - Splitting hashtags (#iloveprogramming → "i love programming")
 - Restoring spaces to text with missing spaces (machinelearningisfun → "machine learning is fun")
@@ -17,13 +17,13 @@ The package uses both unigram and bigram frequencies derived from a large corpus
 ## Installation
 
 ```bash
-pip install -e git@github.com:eleos-health/word_segment.git
+pip install -e git@github.com:eleos-health/python-wordsegment.git
 ```
 
 ## Quick Start
 
 ```python
-from word_segment.word_segment import Segmenter
+from wordsegment.wordsegment import Segmenter
 
 # Create a segmenter instance
 segmenter = Segmenter()
@@ -92,7 +92,7 @@ for word in segmenter.isegment("thisisareallylongpiece..."):
 ### Multiple segmenter instances with different configurations
 
 ```python
-from word_segment.word_segment import Segmenter
+from wordsegment.wordsegment import Segmenter
 
 # Create segmenters with different configurations
 default_segmenter = Segmenter()
