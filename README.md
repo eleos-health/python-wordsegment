@@ -37,7 +37,7 @@ print(segmenter.segment(text))
 # Output: ['this', 'is', 'a', 'test']
 
 # Title case output
-print(segmenter.segment_and_title(text))
+print(segmenter.segment_capitalized(text))
 # Output: ['This', 'Is', 'A', 'Test']
 ```
 

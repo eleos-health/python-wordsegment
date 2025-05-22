@@ -105,7 +105,7 @@ class TestSegmentation:
         """Test the segment_and_title function."""
         text = "thisisatest"
         expected = ["This", "Is", "A", "Test"]
-        result = loaded_segmenter.segment_and_title(text)
+        result = loaded_segmenter.segment_capitalized(text)
         assert result == expected
 
 

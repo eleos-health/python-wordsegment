@@ -512,7 +512,7 @@ class Segmenter:
         # Use the generator method and collect results into a list
         return list(self.isegment(text, chunk_size))
 
-    def segment_and_title(
+    def segment_capitalized(
             self,
             text: str,
             chunk_size: Optional[int] = None
