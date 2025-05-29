@@ -1,6 +1,2 @@
 pytest
 pytest-cov
-pre-commit
-mypy
-black
-ruff

@@ -8,10 +8,6 @@ authors = ["ilan-k <ilan.k@eleos.health>"]
 python = "^3.11"
 pytest = "^8.3.5"
 pytest-cov = "^6.1.1"
-pre-commit = "^4.2.0"
-mypy = "^1.15.0"
-black = "^25.1.0"
-ruff = "^0.11.9"
 
 [tool.poetry.dev-dependencies]
 
